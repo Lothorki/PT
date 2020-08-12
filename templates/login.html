@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+</head>
+<body>
+    <form action="/user/api/login/" method="post">
+        <p>{{ msg }}</p>
+        <label>用户名:</label><input name="username">
+        <br>
+        <label>密码:</label><input name="password">
+        <br>
+        <input name="is_login" type="checkbox"><label>是否自动登录</label><br><br>
+        <button type="submit">登录</button>
+    </form>
+</body>
+</html>
